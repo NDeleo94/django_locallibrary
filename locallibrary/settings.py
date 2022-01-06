@@ -28,7 +28,7 @@ SECRET_KEY = os.environ.get('DJANGO_SECRET_KEY', 'cg#p$g+j9tax!#a3cup@1$8obt2_+&
 #DEBUG = True #line for dev
 DEBUG = os.environ.get('DJANGO_DEBUG', '') != 'False' #line for prod
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['tranquil-meadow-27172.herokuapp.com']
 
 
 # Application definition
